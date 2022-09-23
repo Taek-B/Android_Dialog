@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="토스트 메시지"
+        android:textSize="24sp"
+        android:id="@+id/toastBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="데이트 피커 다이얼로그"
+        android:textSize="24sp"
+        android:id="@+id/dateBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="타임 피커 다이얼로그"
+        android:textSize="24sp"
+        android:id="@+id/timeBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기본 알림창"
+        android:textSize="24sp"
+        android:id="@+id/alertBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="목록 알림창"
+        android:textSize="24sp"
+        android:id="@+id/listBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다중선택 알림창"
+        android:textSize="24sp"
+        android:id="@+id/multiBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="단일선택 알림창"
+        android:textSize="24sp"
+        android:id="@+id/singleBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="커스텀 다이얼로그"
+        android:textSize="24sp"
+        android:id="@+id/customBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소리 재생"
+        android:textSize="24sp"
+        android:id="@+id/soundBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="음원 재생"
+        android:textSize="24sp"
+        android:id="@+id/soundBtn2"/>
+
+</LinearLayout>
